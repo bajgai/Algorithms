@@ -356,6 +356,12 @@
         <BugPattern name="DLS_DEAD_LOCAL_STORE" />
     </Match>
 
+    <!-- need to read m, width, and height for training images, but don't need to store -->
+    <Match>
+        <Class name = "ImageClassifier" />
+        <BugPattern name="DLS_DEAD_LOCAL_STORE" />
+    </Match>
+
     <!-- false positive in LFSR with String instance variable -->
     <Match>
         <Class name = "~(LFSR)" />
@@ -456,6 +462,12 @@
     <Match>
         <Class name = "~(SCUtility)" />
         <BugPattern name="FCCD_FIND_CLASS_CIRCULAR_DEPENDENCY" />
+    </Match>
+
+    <!-- some false positives -->
+    <Match>
+        <Class name = "~(SeamCarver)" />
+        <BugPattern name="SLS_SUSPICIOUS_LOOP_SEARCH" />
     </Match>
 
     <!-- BoggleBoard doesn't implement hashCode() or equals() and does safe test for floating-point equality -->

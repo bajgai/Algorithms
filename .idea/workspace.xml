@@ -37,15 +37,43 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.exercise112">
+  <component name="RunManager" selected="Application.Exercise_117">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="Exercise_113" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_113" />
+      <module name="ch1" />
+      <option name="PROGRAM_PARAMETERS" value="1 2 3" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_114" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_114" />
+      <module name="ch1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_115" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_115" />
+      <module name="ch1" />
+      <option name="PROGRAM_PARAMETERS" value="1 2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_116" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_116" />
+      <module name="ch1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_117" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_117" />
+      <module name="ch1" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -69,30 +97,5 @@
       </method>
     </configuration>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="448" y="118" key="#Project_Structure" timestamp="1624501499511">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="448" y="118" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1624501499511" />
-    <state width="1920" height="321" key="GridCell.Tab.0.bottom" timestamp="1625872725592">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1625872725592" />
-    <state width="1920" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.25.1920.1055@0.0.1920.1080" timestamp="1624502031449" />
-    <state width="1920" height="321" key="GridCell.Tab.0.center" timestamp="1625872725592">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1625872725592" />
-    <state width="1920" height="321" key="GridCell.Tab.0.center/0.0.1920.1080/1920.25.1920.1055@0.0.1920.1080" timestamp="1624502031447" />
-    <state width="1920" height="321" key="GridCell.Tab.0.left" timestamp="1625872725591">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1625872725591" />
-    <state width="1920" height="321" key="GridCell.Tab.0.left/0.0.1920.1080/1920.25.1920.1055@0.0.1920.1080" timestamp="1624502031444" />
-    <state width="1920" height="321" key="GridCell.Tab.0.right" timestamp="1625872725592">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1920" height="321" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1625872725592" />
-    <state width="1920" height="321" key="GridCell.Tab.0.right/0.0.1920.1080/1920.25.1920.1055@0.0.1920.1080" timestamp="1624502031448" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
 </project>

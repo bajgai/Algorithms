@@ -594,6 +594,13 @@
             <message key="import.illegal" value="Do not use ''java.util.Random'' in this course. Instead, use an appropriate method from ''StdRandom''."/>
         </module>
 
+        <!-- Don't allow variables to be declared of type Object[], e.g., to then cast to another type like Integer[] or Queue[]  -->
+        <module name="MyIllegalType">
+            <property name="id" value="Design"/>
+            <property name="illegalClassNames" value="Object[]"/>
+            <message key="illegal.type" value="You should not need to declare variables of type ''{0}'' in this program."/>
+        </module>
+
         <!-- Don't allow variables to be declared of wrapper types   -->
         <!-- (special case for int, boolean, and double for more descriptive error message)   -->
         <!-- Use MyIllegalType because IllegalType flags wrapper type when used with generics -->
@@ -601,35 +608,61 @@
 
         <module name="MyIllegalType">
             <property name="id" value="Wrapper"/>
-            <property name="illegalClassNames" value="java.lang.Boolean"/>
+            <property name="illegalClassNames" value="Boolean"/>
             <message key="illegal.type" value="Use the primitive type ''boolean'' instead of the wrapper type ''{0}''."/>
         </module>
 
         <module name="MyIllegalType">
             <property name="id" value="Wrapper"/>
-            <property name="illegalClassNames" value="java.lang.Double"/>
+            <property name="illegalClassNames" value="Double"/>
             <message key="illegal.type" value="Use the primitive type ''double'' instead of the wrapper type ''{0}''."/>
         </module>
 
         <module name="MyIllegalType">
             <property name="id" value="Wrapper"/>
-            <property name="illegalClassNames" value="java.lang.Integer"/>
+            <property name="illegalClassNames" value="Integer"/>
             <message key="illegal.type" value="Use the primitive type ''int'' instead of the wrapper type ''{0}''."/>
         </module>
 
         <module name="MyIllegalType">
             <property name="id" value="Wrapper"/>
-            <property name="illegalClassNames" value="java.lang.Character"/>
+            <property name="illegalClassNames" value="Character"/>
             <message key="illegal.type" value="Use the primitive type ''char'' instead of the wrapper type ''{0}''."/>
         </module>
 
         <module name="MyIllegalType">
             <property name="id" value="Wrapper"/>
-            <property name="illegalClassNames" value="java.lang.Long,
-                                                      java.lang.Short,
-                                                      java.lang.Float,
-                                                      java.lang.Byte"/>
+            <property name="illegalClassNames" value="Long,
+                                                      Short,
+                                                      Float,
+                                                      Byte"/>
             <message key="illegal.type" value="Use the primitive type instead of the corresponding wrapper type ''{0}''. For example, use ''long'' instead of ''Long''."/>
+        </module>
+
+        <module name="MyIllegalType">
+            <property name="id" value="Wrapper"/>
+            <property name="illegalClassNames" value="Boolean[],
+                                                      Integer[],
+                                                      Double[],
+                                                      Character[],
+                                                      Short[],
+                                                      Long[],
+                                                      Float[],
+                                                      Byte[]"/>
+            <message key="illegal.type" value="Use an array of the primitive type instead of an array of the corresponding wrapper type ''{0}''. For example, use ''int[]'' instead of ''Integer[]''."/>
+        </module>
+
+        <module name="MyIllegalType">
+            <property name="id" value="Wrapper"/>
+            <property name="illegalClassNames" value="Boolean[][],
+                                                      Integer[][],
+                                                      Double[][],
+                                                      Character[][],
+                                                      Short[][],
+                                                      Long[][],
+                                                      Float[][],
+                                                      Byte[][]"/>
+            <message key="illegal.type" value="Use an array of the primitive type instead of an array of the corresponding wrapper type ''{0}''. For example, use ''int[][]'' instead of ''Integer[][]''."/>
         </module>
 
         <!-- Don't allow objects to be constructed of wrapper types -->
