@@ -43,10 +43,31 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Exercise_117">
+  <component name="RunManager" selected="Application.Exercise_1114">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    </configuration>
+    <configuration name="Exercise_1111" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_1111" />
+      <module name="ch1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_1112" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_1112" />
+      <module name="ch1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_1113" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_1113" />
+      <module name="ch1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_1114" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_1114" />
+      <module name="ch1" />
+      <option name="PROGRAM_PARAMETERS" value="7" />
+      <method v="2" />
     </configuration>
     <configuration name="Exercise_113" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Exercise_113" />
@@ -73,6 +94,17 @@
     <configuration name="Exercise_117" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Exercise_117" />
       <module name="ch1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_118" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_118" />
+      <module name="ch1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_119" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_119" />
+      <module name="ch1" />
+      <option name="PROGRAM_PARAMETERS" value="15" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
