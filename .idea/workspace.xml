@@ -43,7 +43,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Exercise_1114">
+  <component name="RunManager" selected="Application.Exercise_1117">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -67,6 +67,21 @@
       <option name="MAIN_CLASS_NAME" value="Exercise_1114" />
       <module name="ch1" />
       <option name="PROGRAM_PARAMETERS" value="7" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_1115" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_1115" />
+      <module name="ch1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_1116" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_1116" />
+      <module name="ch1" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercise_1117" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Exercise_1117" />
+      <module name="ch1" />
       <method v="2" />
     </configuration>
     <configuration name="Exercise_113" type="Application" factoryName="Application">
